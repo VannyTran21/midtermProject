@@ -1,0 +1,160 @@
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: #333;
+    
+}
+
+.header {
+    background-color: beige;
+    color: rgb(128, 87, 47);
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.navbar {
+    background-color: rgb(128, 87, 47);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+
+    font-size: 16px;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: beige;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+button {
+    border: none;
+    background-color:beige;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+.content {
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(222, 187, 127);
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(128, 87, 47);
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-content {
+    flex-grow: 1;
+}
+
+.text-content li {
+    margin-left: 20px;
+}
+
+.introPic {
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 5%;
+}
+
+#refer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 400px; 
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    height: 20px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+th {
+    background-color:rgb(222, 187, 127);
+}
+
